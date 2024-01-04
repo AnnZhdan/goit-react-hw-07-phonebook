@@ -1,1 +1,1 @@
-export const getPhoneBookValue = state => state.contacts;
+export const getPhoneBookValue = state => state.contacts.items;
