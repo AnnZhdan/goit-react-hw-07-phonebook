@@ -1,4 +1,4 @@
-import { getFilter } from '../../redux/filterSlice';
+import { getFilter } from '../../redux/selektor';
 import { useDispatch, useSelector } from 'react-redux';
 import { getPhoneBookValue } from '../../redux/selektor';
 import { delContactThunk, getContactsThunk } from 'api/api';

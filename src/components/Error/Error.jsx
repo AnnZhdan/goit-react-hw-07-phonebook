@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { getError } from '../../redux/phoneBookSlice';
+import { getError } from '../../redux/selektor';
 import { Err } from './Error.styled';
 
 export const Error = () => {

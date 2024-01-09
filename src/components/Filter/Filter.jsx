@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { LabelSearch, InputSearch } from './Filter.styled';
-import { filterSet, getFilter } from '../../redux/filterSlice';
-
+import { filterSet } from '../../redux/filterSlice';
+import { getFilter } from '../../redux/selektor';
 export const Filter = () => {
   const dispatch = useDispatch();
   const filterPhoneBook = useSelector(getFilter);

@@ -44,6 +44,3 @@ export const phoneBookSlice = createSlice({
       .addMatcher(isAnyOf(...addStatusToActs('rejected')), onRejected);
   },
 });
-
-export const getIsLoading = state => state.contacts.isLoading;
-export const getError = state => state.contacts.error;

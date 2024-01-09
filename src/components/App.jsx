@@ -6,7 +6,7 @@ import { Loader } from './Loader/Loader';
 import { MainContainer } from './App.styled';
 import { useSelector } from 'react-redux';
 import { getPhoneBookValue } from '../redux/selektor';
-import { getIsLoading, getError } from '../redux/phoneBookSlice';
+import { getIsLoading, getError } from '../redux/selektor';
 
 export const App = () => {
   const phoneBook = useSelector(getPhoneBookValue);
